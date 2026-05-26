@@ -44,4 +44,14 @@ public:
         }
         queue_array[REAR] = num;
     }
+
+     void remove()
+    {
+        if (FRONT == -1)
+        {
+            cout << "\nQueue underflow\n";
+            return;
+        }
+
+    }
 };
